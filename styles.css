@@ -270,7 +270,7 @@ footer .container{
     }
 
     #caracteristicas{
-        background-image: url(/web/mati.jpeg);
+        background-image: url();
         background-repeat: no-repeat;
         background-size: 300px 300px;
         background-position: calc(100vw - 700px) 120px; /*total de mi ancho -700px*/
