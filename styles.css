@@ -2,9 +2,11 @@
     box-sizing: border-box;
 }
 
+
 html{
     scroll-behavior: smooth; /*lentitud al scrolear en la pantalla*/
 }
+
 
 h1{font-size: 3.5em; color: white;}
 h2{font-size: 2.7em;}
@@ -12,10 +14,13 @@ h3{font-size: 1.25em;}
 ul{list-style: none;}
 li{font-size: 1.25em;}
 
+
 body{
     font-family: roboto;
     margin: 0;
+    text-align: justify;
 }
+
 
 button{
     font-size: 1.1em;
@@ -28,32 +33,44 @@ button{
     background-color: #77C043;
 }
 
+
 button:hover{
     background-color: #65a13a; /* Asemejar a que estas presionando el boton, dandole un tono mas oscuro al backg*/
 }
+
 
 .container{
     max-width: 1400px;
     margin: auto;
 }
 
+
 header{
     background-color: rgb(245, 245, 245);
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
+
 
 header .logo{
     margin: 0;
-    padding: 25px 30px; 
+    padding: 25px 30px;
     font-weight: bold;
     color: #77C043;
     font-size: 1.6em;
 }
+
 
 header .container{
     display:flex; /*centrar elementos del header*/
     flex-direction: column; /*Ordena los elementos del heaader en columnas*/
     align-items: center; /*Centra los elementos del header*/
 }
+
 
 header nav{
     display:flex; /*centrar elementos del header*/
@@ -63,6 +80,8 @@ header nav{
 }
 
 
+
+
 header a{
     padding: 5px 12px;
     text-decoration: none; /*quitar subrayado*/
@@ -70,16 +89,19 @@ header a{
     color: black;
 }
 
+
 header a:hover{
     color:#77C043; /* Asemejar a que estas presionando el boton, dandole un tono mas oscuro al texto*/
 }
+
 
 #hero h1{
     font-size: 5em;
 }
 
+
 #hero{
-    display:flex; 
+    display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -91,14 +113,22 @@ header a:hover{
     background-position: center;
 }
 
+
 .eco{
     color:#77C043
 }
+
 
 #somos-ecovolt .container{
     text-align: center;
     padding: 200px 12px;
 }
+
+
+#somos-ecovolt p {
+    text-align: justify;
+}
+
 
 #nuestros-servicios{
     background-color: rgb(30, 30, 30);
@@ -106,18 +136,22 @@ header a:hover{
     text-align: center;
 }
 
+
 #nuestros-servicios .container{
     padding: 100px 12px;
 }
+
 
 #nuestros-servicios h2{
     margin: 0;
     font-size: 3.2em;
 }
 
+
 #nuestros-servicios p{
     display: none;
 }
+
 
 #nuestros-servicios .carta{
     background-repeat: no-repeat;
@@ -129,27 +163,39 @@ header a:hover{
 }
 
 
+
+
 .carta:first-child{
     background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/monitoreo.png);
 }
+
 
 .carta:nth-child(2){
     background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/analisis.png) ;
 }
 
+
 .carta:last-child{
     background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/automatizacion.png) ;
 }
+
+
+#nuestros-servicios .carta p {
+    text-align: justify;
+}
+
 
 #caracteristicas .container{
     text-align: center;
     padding: 200px 12px;
 }
 
+
 #caracteristicas li{
     margin: 15px 0;
     font-weight: bold;
 }
+
 
 #calla{
     display: flex;
@@ -162,28 +208,240 @@ header a:hover{
     height: 80vh;
 }
 
+
+#calla {
+  background: linear-gradient(120deg, #e0ffe6 0%, #b6f0c1 60%, #d0eaff 100%);
+  padding: 70px 0 60px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.calla-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+#calla h2 {
+  font-size: 2.3em;
+  color: #222;
+  margin-bottom: 0;
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+
 #calla h2{
     font-size: 9vw;
 }
+
 
 #calla button{
     font-size: 5vw;
 }
 
+
 footer{
     background-color: rgb(100,100,100);
 }
+
 
 footer p{
     margin: 0;
     padding: 12px;
 }
 
+
 footer .container{
     height: 150px; /*altura del pie de cabeza*/
     display: flex;
     justify-content: center;
     align-items: flex-end;/*posiciona el texto al medio abajo*/
+}
+
+
+.login-btn {
+    background: #77C043;
+    color: white !important;
+    border-radius: 10px;
+    padding: 8px 18px;
+    margin-left: 10px;
+    transition: background 0.2s;
+}
+.login-btn:hover {
+    background: #65a13a;
+    color: #fff !important;
+}
+
+
+button,
+.login-btn,
+.btn-anim {
+  transition:
+    background 0.2s,
+    color 0.2s,
+    transform 0.15s cubic-bezier(.4,0,.2,1),
+    box-shadow 0.2s;
+}
+
+button:hover,
+.login-btn:hover,
+.btn-anim:hover {
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 4px 16px #77C04333;
+}
+
+
+.caracteristicas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+  margin: 40px 0;
+  align-items: stretch;
+}
+
+.caracteristica {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px #77C04322;
+  padding: 28px 20px 20px 20px;
+  text-align: center;
+  transition: transform 0.18s, box-shadow 0.18s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 320px;
+}
+
+.caracteristica:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 32px #77C04344;
+}
+
+.caracteristica-icon {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 18px;
+}
+
+.caracteristica h4 {
+  margin: 10px 0 12px 0;
+  color: #77C043;
+  font-size: 1.2em;
+}
+
+.caracteristica p {
+  color: #333;
+  font-size: 1em;
+  text-align: justify;
+  margin: 0;
+}
+
+/* Animación de fade-in para la sección calla */
+.calla-fade {
+  opacity: 0;
+  transform: translateY(40px) scale(0.97);
+  animation: callaFadeIn 1s cubic-bezier(.4,0,.2,1) forwards;
+}
+
+.calla-fade:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.calla-fade:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+@keyframes callaFadeIn {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Footer Styles */
+.footer-main {
+  background: #222;
+  color: #eee;
+  padding: 28px 0 18px 0;
+  font-size: 1em;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 0 24px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer-left a {
+  color: #77C043;
+  text-decoration: none;
+  margin: 0 6px;
+  font-size: 0.98em;
+  transition: color 0.2s;
+}
+.footer-left a:hover {
+  color: #b6f0c1;
+  text-decoration: underline;
+}
+
+.footer-right {
+  display: flex;
+  gap: 18px;
+}
+
+.footer-social {
+  width: 28px;
+  height: 28px;
+  filter: grayscale(1) brightness(1.5);
+  transition: filter 0.2s, transform 0.2s;
+}
+.footer-social:hover {
+  filter: none;
+  transform: scale(1.12) rotate(-6deg);
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .caracteristicas-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .caracteristica {
+    min-height: 0;
+  }
+
+  #calla h2 {
+    font-size: 1.3em;
+  }
+  .calla-btn {
+    font-size: 1em;
+    padding: 10px 18px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 0 10px;
+  }
+  .footer-right {
+    margin-top: 8px;
+  }
 }
 
 @media (min-width: 720px)
@@ -197,16 +455,18 @@ footer .container{
         justify-content: space-between; /*Separar elementos y los mande a una esquina a cada uno*/
     }
 
+
     header nav{
-        flex-direction: row; 
+        flex-direction: row;
         padding-bottom: 0;
         padding-right: 20px ;
     }
-    
+   
     #somos-ecovolt .container{
         display: flex;
         justify-content: center;
     }
+
 
     #somos-ecovolt .texto{
         display: flex;
@@ -218,9 +478,11 @@ footer .container{
         justify-content: center;
     }
 
+
     #somos-ecovolt h2{
         margin-top: 0;
     }
+
 
     #somos-ecovolt .img-container{
         background-image: url(images/ecoo.png);
@@ -231,15 +493,18 @@ footer .container{
         width: 400px;
     }
 
+
     #nuestros-servicios .servicios{
         display: flex;
         justify-content: center;
     }
 
+
     #nuestros-servicios p{
         display: block;
         margin-bottom: 30px;
     }
+
 
     #nuestros-servicios h2{
         font-size: 4em;
@@ -247,6 +512,7 @@ footer .container{
     #nuestros-servicios h3{
         margin-top: 0;
     }
+
 
     #nuestros-servicios .carta{
         padding: 50px;
@@ -257,48 +523,241 @@ footer .container{
         box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
     }
 
+
     .carta:first-child{
     background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/monicrop.png);
     }
+
 
     .carta:nth-child(2){
     background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/analcrop.png) ;
     }
 
+
     .carta:last-child{
     background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/automacrop.png) ;
     }
 
+
     #caracteristicas{
-        background-image: url(/web/mati.jpeg);
+        background-image: url();
         background-repeat: no-repeat;
         background-size: 300px 300px;
         background-position: calc(100vw - 700px) 120px; /*total de mi ancho -700px*/
     }
 
+
     #caracteristicas .container{
         text-align: initial;
     }
+
 
     #caracteristicas ul{
         margin-left: 100px;
     }
 
+
     #calla h2{
         font-size: 5em;
     }
 
+
     #calla button{
         font-size: 2em;
     }
+
 
     footer .container{
         justify-content: flex-end;
     }
 }
 
+
 @media (min-width:1200px){
     #caracteristicas{
         background-position-x: calc(100vw - 800px);
     }
+}
+
+#caracteristicas {
+  background: linear-gradient(120deg, #e0ffe6 0%, #b6f0c1 60%, #d0eaff 100%);
+  padding: 60px 0;
+}
+
+#caracteristicas .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.images {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px #77C04322;
+  width: 260px;
+  height: 340px;
+  margin: 8px 0;
+  background: #fff;
+  transition: box-shadow 0.3s;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.3s;
+  background: #fff;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(34, 34, 34, 0.7);
+  padding: 36px 18px 18px 18px;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s, backdrop-filter 0.3s;
+  transform: scale(0.96);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.overlay h2 {
+  font-size: 1.3em;
+  margin-bottom: 12px;
+  color: #77C043;
+}
+
+.overlay p {
+  font-size: 1em;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.image-container:hover img {
+  filter: blur(4px);
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+  transform: scale(1);
+  backdrop-filter: blur(0);
+}
+
+.image-container:hover .overlay p {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.caracteristicas-titulo {
+  text-align: center;
+  width: 100%;
+  font-size: 3.2em;
+  font-family: 'Times New Roman', Times, serif;
+  color: #219150;
+  margin-bottom: 100px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.como-se-usa {
+  margin-top: 18px;
+  text-align: center;
+}
+
+.como-se-usa a {
+  color: #219150;
+  font-size: 1.1em;
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.como-se-usa a:hover {
+  color: #77C043;
+}
+
+@media (max-width: 1100px) {
+  .images {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .image-container {
+    width: 45vw;
+    max-width: 320px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 700px) {
+  .images {
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-container {
+    width: 90vw;
+    max-width: 340px;
+    height: 180px;
+  }
+}
+
+#caracteristicas {
+  padding-top: 70px;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(40px) scale(0.97);
+  transition: opacity 0.8s cubic-bezier(.4,0,.2,1), transform 0.8s cubic-bezier(.4,0,.2,1);
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: none;
+}
+
+#btn-top {
+  display: none;
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  z-index: 1200;
+  background: #77C043;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  box-shadow: 0 4px 16px #77C04344;
+  transition: background 0.2s, transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+#btn-top svg {
+  display: block;
+  margin: auto;
+}
+#btn-top:hover {
+  background: #5fa02a;
+  transform: scale(1.1);
 }
