@@ -267,6 +267,36 @@ header a:hover{
 
 
 
+#calla {
+  background: linear-gradient(120deg, #e0ffe6 0%, #b6f0c1 60%, #d0eaff 100%);
+  padding: 70px 0 60px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.calla-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+
+#calla h2 {
+  font-size: 2.3em;
+  color: #222;
+  margin-bottom: 0;
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+
+
+
 #calla h2{
     font-size: 9vw;
 }
@@ -394,6 +424,30 @@ button:hover,
 }
 
 
+/* Animación de fade-in para la sección calla */
+.calla-fade {
+  opacity: 0;
+  transform: translateY(40px) scale(0.97);
+  animation: callaFadeIn 1s cubic-bezier(.4,0,.2,1) forwards;
+}
+
+
+.calla-fade:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.calla-fade:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+
+@keyframes callaFadeIn {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
 /* Responsive */
 @media (max-width: 700px) {
   .caracteristicas-grid {
@@ -402,6 +456,15 @@ button:hover,
   }
   .caracteristica {
     min-height: 0;
+  }
+
+
+  #calla h2 {
+    font-size: 1.3em;
+  }
+  .calla-btn {
+    font-size: 1em;
+    padding: 10px 18px;
   }
 }
 
