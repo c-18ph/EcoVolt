@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 // Mostrar el botón al hacer scroll y volver arriba suavemente
+=======
+>>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 document.addEventListener("DOMContentLoaded", function () {
   const btn = document.getElementById('btn-top');
   window.addEventListener('scroll', function () {
@@ -9,6 +12,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
   btn.addEventListener('click', function () {
     // Scroll lento y suave usando requestAnimationFrame
     const scrollToTop = () => {
@@ -20,4 +27,8 @@ document.addEventListener("DOMContentLoaded", function () {
     };
     scrollToTop();
   });
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
