@@ -3,21 +3,11 @@
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 html{
     scroll-behavior: smooth; /*lentitud al scrolear en la pantalla*/
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 h1{font-size: 3.5em; color: white;}
 h2{font-size: 2.7em;}
 h3{font-size: 1.25em;}
@@ -25,11 +15,6 @@ ul{list-style: none;}
 li{font-size: 1.25em;}
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 body{
     font-family: roboto;
     margin: 0;
@@ -37,11 +22,6 @@ body{
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 button{
     font-size: 1.1em;
     font-weight: bold;
@@ -54,32 +34,17 @@ button{
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 button:hover{
     background-color: #65a13a; /* Asemejar a que estas presionando el boton, dandole un tono mas oscuro al backg*/
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .container{
     max-width: 1400px;
     margin: auto;
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 header{
     background-color: rgb(245, 245, 245);
     padding-top: 20px;
@@ -91,11 +56,6 @@ header{
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 header .logo{
     margin: 0;
     padding: 25px 30px;
@@ -105,11 +65,6 @@ header .logo{
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 header .container{
     display:flex; /*centrar elementos del header*/
     flex-direction: column; /*Ordena los elementos del heaader en columnas*/
@@ -117,11 +72,6 @@ header .container{
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 header nav{
     display:flex; /*centrar elementos del header*/
     flex-direction: column; /*Ordena los elementos del heaader en columnas*/
@@ -132,13 +82,6 @@ header nav{
 
 
 
-<<<<<<< HEAD
-=======
-
-
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 header a{
     padding: 5px 12px;
     text-decoration: none; /*quitar subrayado*/
@@ -147,31 +90,16 @@ header a{
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 header a:hover{
     color:#77C043; /* Asemejar a que estas presionando el boton, dandole un tono mas oscuro al texto*/
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #hero h1{
     font-size: 5em;
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #hero{
     display:flex;
     flex-direction: column;
@@ -186,42 +114,22 @@ header a:hover{
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .eco{
     color:#77C043
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #somos-ecovolt .container{
     text-align: center;
     padding: 200px 12px;
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #somos-ecovolt p {
     text-align: justify;
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #nuestros-servicios{
     background-color: rgb(30, 30, 30);
     color: white;
@@ -229,42 +137,22 @@ header a:hover{
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #nuestros-servicios .container{
     padding: 100px 12px;
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #nuestros-servicios h2{
     margin: 0;
     font-size: 3.2em;
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #nuestros-servicios p{
     display: none;
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #nuestros-servicios .carta{
     background-repeat: no-repeat;
     background-size: cover;
@@ -277,75 +165,38 @@ header a:hover{
 
 
 
-<<<<<<< HEAD
-=======
-
-
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .carta:first-child{
     background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/monitoreo.png);
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .carta:nth-child(2){
     background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/analisis.png) ;
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .carta:last-child{
     background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/automatizacion.png) ;
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #nuestros-servicios .carta p {
     text-align: justify;
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #caracteristicas .container{
     text-align: center;
     padding: 200px 12px;
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #caracteristicas li{
     margin: 15px 0;
     font-weight: bold;
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #calla{
     display: flex;
     flex-direction: column;
@@ -358,11 +209,6 @@ header a:hover{
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #calla {
   background: linear-gradient(120deg, #e0ffe6 0%, #b6f0c1 60%, #d0eaff 100%);
   padding: 70px 0 60px 0;
@@ -371,10 +217,6 @@ header a:hover{
   overflow: hidden;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .calla-content {
   display: flex;
   flex-direction: column;
@@ -382,10 +224,6 @@ header a:hover{
   gap: 32px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #calla h2 {
   font-size: 2.3em;
   color: #222;
@@ -397,52 +235,27 @@ header a:hover{
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #calla h2{
     font-size: 9vw;
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #calla button{
     font-size: 5vw;
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 footer{
     background-color: rgb(100,100,100);
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 footer p{
     margin: 0;
     padding: 12px;
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 footer .container{
     height: 150px; /*altura del pie de cabeza*/
     display: flex;
@@ -451,11 +264,6 @@ footer .container{
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .login-btn {
     background: #77C043;
     color: white !important;
@@ -470,11 +278,6 @@ footer .container{
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 button,
 .login-btn,
 .btn-anim {
@@ -485,10 +288,6 @@ button,
     box-shadow 0.2s;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 button:hover,
 .login-btn:hover,
 .btn-anim:hover {
@@ -497,11 +296,6 @@ button:hover,
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .caracteristicas-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -510,10 +304,6 @@ button:hover,
   align-items: stretch;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .caracteristica {
   background: #fff;
   border-radius: 16px;
@@ -527,39 +317,23 @@ button:hover,
   min-height: 320px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .caracteristica:hover {
   transform: translateY(-6px) scale(1.03);
   box-shadow: 0 8px 32px #77C04344;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .caracteristica-icon {
   width: 56px;
   height: 56px;
   margin-bottom: 18px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .caracteristica h4 {
   margin: 10px 0 12px 0;
   color: #77C043;
   font-size: 1.2em;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .caracteristica p {
   color: #333;
   font-size: 1em;
@@ -567,10 +341,6 @@ button:hover,
   margin: 0;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 /* Animación de fade-in para la sección calla */
 .calla-fade {
   opacity: 0;
@@ -578,10 +348,6 @@ button:hover,
   animation: callaFadeIn 1s cubic-bezier(.4,0,.2,1) forwards;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .calla-fade:nth-child(1) {
   animation-delay: 0.1s;
 }
@@ -589,10 +355,6 @@ button:hover,
   animation-delay: 0.4s;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 @keyframes callaFadeIn {
   to {
     opacity: 1;
@@ -600,10 +362,6 @@ button:hover,
   }
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 /* Footer Styles */
 .footer-main {
   background: #222;
@@ -612,10 +370,6 @@ button:hover,
   font-size: 1em;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .footer-container {
   max-width: 1100px;
   margin: 0 auto;
@@ -627,20 +381,12 @@ button:hover,
   padding: 0 24px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .footer-left {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .footer-left a {
   color: #77C043;
   text-decoration: none;
@@ -653,19 +399,11 @@ button:hover,
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .footer-right {
   display: flex;
   gap: 18px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .footer-social {
   width: 28px;
   height: 28px;
@@ -677,10 +415,6 @@ button:hover,
   transform: scale(1.12) rotate(-6deg);
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 /* Responsive */
 @media (max-width: 700px) {
   .caracteristicas-grid {
@@ -691,10 +425,6 @@ button:hover,
     min-height: 0;
   }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
   #calla h2 {
     font-size: 1.3em;
   }
@@ -703,10 +433,6 @@ button:hover,
     padding: 10px 18px;
   }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
   .footer-container {
     flex-direction: column;
     align-items: flex-start;
@@ -718,10 +444,6 @@ button:hover,
   }
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 @media (min-width: 720px)
 { /*Cuando el ancho de la pantalla >720 px, se aplica lo siguiente*/
     header{
@@ -734,11 +456,6 @@ button:hover,
     }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
     header nav{
         flex-direction: row;
         padding-bottom: 0;
@@ -751,11 +468,6 @@ button:hover,
     }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
     #somos-ecovolt .texto{
         display: flex;
         width: 50%;
@@ -767,21 +479,11 @@ button:hover,
     }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
     #somos-ecovolt h2{
         margin-top: 0;
     }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
     #somos-ecovolt .img-container{
         background-image: url(images/ecoo.png);
         background-size: contain;
@@ -792,33 +494,18 @@ button:hover,
     }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
     #nuestros-servicios .servicios{
         display: flex;
         justify-content: center;
     }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
     #nuestros-servicios p{
         display: block;
         margin-bottom: 30px;
     }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
     #nuestros-servicios h2{
         font-size: 4em;
     }
@@ -827,11 +514,6 @@ button:hover,
     }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
     #nuestros-servicios .carta{
         padding: 50px;
         background-size: 100% 150px;
@@ -842,41 +524,21 @@ button:hover,
     }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
     .carta:first-child{
     background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/monicrop.png);
     }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
     .carta:nth-child(2){
     background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/analcrop.png) ;
     }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
     .carta:last-child{
     background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/automacrop.png) ;
     }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
     #caracteristicas{
         background-image: url();
         background-repeat: no-repeat;
@@ -885,81 +547,43 @@ button:hover,
     }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
     #caracteristicas .container{
         text-align: initial;
     }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
     #caracteristicas ul{
         margin-left: 100px;
     }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
     #calla h2{
         font-size: 5em;
     }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
     #calla button{
         font-size: 2em;
     }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
     footer .container{
         justify-content: flex-end;
     }
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 @media (min-width:1200px){
     #caracteristicas{
         background-position-x: calc(100vw - 800px);
     }
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #caracteristicas {
   background: linear-gradient(120deg, #e0ffe6 0%, #b6f0c1 60%, #d0eaff 100%);
   padding: 60px 0;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #caracteristicas .container {
   display: flex;
   flex-direction: column;
@@ -967,10 +591,6 @@ button:hover,
   width: 100%;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .images {
   display: flex;
   gap: 24px;
@@ -981,10 +601,6 @@ button:hover,
   position: relative;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .image-container {
   position: relative;
   overflow: hidden;
@@ -997,10 +613,6 @@ button:hover,
   transition: box-shadow 0.3s;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .image-container img {
   width: 100%;
   height: 100%;
@@ -1009,10 +621,6 @@ button:hover,
   background: #fff;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .overlay {
   position: absolute;
   top: 0;
@@ -1032,20 +640,12 @@ button:hover,
   justify-content: center;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .overlay h2 {
   font-size: 1.3em;
   margin-bottom: 12px;
   color: #77C043;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .overlay p {
   font-size: 1em;
   opacity: 0;
@@ -1053,37 +653,21 @@ button:hover,
   transition: opacity 0.3s, transform 0.3s;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .image-container:hover img {
   filter: blur(4px);
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .image-container:hover .overlay {
   opacity: 1;
   transform: scale(1);
   backdrop-filter: blur(0);
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .image-container:hover .overlay p {
   opacity: 1;
   transform: translateY(0);
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .caracteristicas-titulo {
   text-align: center;
   width: 100%;
@@ -1095,19 +679,11 @@ button:hover,
   letter-spacing: 1px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .como-se-usa {
   margin-top: 18px;
   text-align: center;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .como-se-usa a {
   color: #219150;
   font-size: 1.1em;
@@ -1116,18 +692,10 @@ button:hover,
   transition: color 0.2s;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .como-se-usa a:hover {
   color: #77C043;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 @media (max-width: 1100px) {
   .images {
     flex-wrap: wrap;
@@ -1140,10 +708,6 @@ button:hover,
   }
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 @media (max-width: 700px) {
   .images {
     flex-direction: column;
@@ -1156,18 +720,10 @@ button:hover,
   }
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #caracteristicas {
   padding-top: 70px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 .fade-in {
   opacity: 0;
   transform: translateY(40px) scale(0.97);
@@ -1178,10 +734,6 @@ button:hover,
   transform: none;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 41785c8652dac322ecf815301334dbafda2ed45c
 #btn-top {
   display: none;
   position: fixed;
