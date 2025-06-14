@@ -100,6 +100,23 @@ button[type="submit"]:hover {
 }
 
 
+button,
+.tab-btn {
+  transition:
+    background 0.2s,
+    color 0.2s,
+    transform 0.15s cubic-bezier(.4,0,.2,1),
+    box-shadow 0.2s;
+}
+
+
+button[type="submit"]:hover,
+.tab-btn:hover {
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 4px 16px #77C04333;
+}
+
+
 .footer-fixed {
   position: fixed;
   right: 12px;
