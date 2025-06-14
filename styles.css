@@ -3,9 +3,13 @@
 }
 
 
+
+
 html{
     scroll-behavior: smooth; /*lentitud al scrolear en la pantalla*/
 }
+
+
 
 
 h1{font-size: 3.5em; color: white;}
@@ -15,10 +19,14 @@ ul{list-style: none;}
 li{font-size: 1.25em;}
 
 
+
+
 body{
     font-family: roboto;
     margin: 0;
 }
+
+
 
 
 button{
@@ -33,9 +41,13 @@ button{
 }
 
 
+
+
 button:hover{
     background-color: #65a13a; /* Asemejar a que estas presionando el boton, dandole un tono mas oscuro al backg*/
 }
+
+
 
 
 .container{
@@ -44,9 +56,13 @@ button:hover{
 }
 
 
+
+
 header{
     background-color: rgb(245, 245, 245);
 }
+
+
 
 
 header .logo{
@@ -58,11 +74,15 @@ header .logo{
 }
 
 
+
+
 header .container{
     display:flex; /*centrar elementos del header*/
     flex-direction: column; /*Ordena los elementos del heaader en columnas*/
     align-items: center; /*Centra los elementos del header*/
 }
+
+
 
 
 header nav{
@@ -75,6 +95,10 @@ header nav{
 
 
 
+
+
+
+
 header a{
     padding: 5px 12px;
     text-decoration: none; /*quitar subrayado*/
@@ -83,14 +107,20 @@ header a{
 }
 
 
+
+
 header a:hover{
     color:#77C043; /* Asemejar a que estas presionando el boton, dandole un tono mas oscuro al texto*/
 }
 
 
+
+
 #hero h1{
     font-size: 5em;
 }
+
+
 
 
 #hero{
@@ -107,15 +137,21 @@ header a:hover{
 }
 
 
+
+
 .eco{
     color:#77C043
 }
+
+
 
 
 #somos-ecovolt .container{
     text-align: center;
     padding: 200px 12px;
 }
+
+
 
 
 #nuestros-servicios{
@@ -125,9 +161,13 @@ header a:hover{
 }
 
 
+
+
 #nuestros-servicios .container{
     padding: 100px 12px;
 }
+
+
 
 
 #nuestros-servicios h2{
@@ -136,9 +176,13 @@ header a:hover{
 }
 
 
+
+
 #nuestros-servicios p{
     display: none;
 }
+
+
 
 
 #nuestros-servicios .carta{
@@ -153,9 +197,15 @@ header a:hover{
 
 
 
+
+
+
+
 .carta:first-child{
     background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/monitoreo.png);
 }
+
+
 
 
 .carta:nth-child(2){
@@ -163,9 +213,13 @@ header a:hover{
 }
 
 
+
+
 .carta:last-child{
     background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/automatizacion.png) ;
 }
+
+
 
 
 #caracteristicas .container{
@@ -174,10 +228,14 @@ header a:hover{
 }
 
 
+
+
 #caracteristicas li{
     margin: 15px 0;
     font-weight: bold;
 }
+
+
 
 
 #calla{
@@ -192,9 +250,13 @@ header a:hover{
 }
 
 
+
+
 #calla h2{
     font-size: 9vw;
 }
+
+
 
 
 #calla button{
@@ -202,9 +264,13 @@ header a:hover{
 }
 
 
+
+
 footer{
     background-color: rgb(100,100,100);
 }
+
+
 
 
 footer p{
@@ -213,12 +279,16 @@ footer p{
 }
 
 
+
+
 footer .container{
     height: 150px; /*altura del pie de cabeza*/
     display: flex;
     justify-content: center;
     align-items: flex-end;/*posiciona el texto al medio abajo*/
 }
+
+
 
 
 .login-btn {
@@ -235,6 +305,29 @@ footer .container{
 }
 
 
+
+
+button,
+.login-btn,
+.btn-anim {
+  transition:
+    background 0.2s,
+    color 0.2s,
+    transform 0.15s cubic-bezier(.4,0,.2,1),
+    box-shadow 0.2s;
+}
+
+
+button:hover,
+.login-btn:hover,
+.btn-anim:hover {
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 4px 16px #77C04333;
+}
+
+
+
+
 @media (min-width: 720px)
 { /*Cuando el ancho de la pantalla >720 px, se aplica lo siguiente*/
     header{
@@ -245,6 +338,8 @@ footer .container{
         flex-direction: row;/*Ordena los elementos en filas horizontales*/
         justify-content: space-between; /*Separar elementos y los mande a una esquina a cada uno*/
     }
+
+
 
 
     header nav{
@@ -259,6 +354,8 @@ footer .container{
     }
 
 
+
+
     #somos-ecovolt .texto{
         display: flex;
         width: 50%;
@@ -270,9 +367,13 @@ footer .container{
     }
 
 
+
+
     #somos-ecovolt h2{
         margin-top: 0;
     }
+
+
 
 
     #somos-ecovolt .img-container{
@@ -285,10 +386,14 @@ footer .container{
     }
 
 
+
+
     #nuestros-servicios .servicios{
         display: flex;
         justify-content: center;
     }
+
+
 
 
     #nuestros-servicios p{
@@ -297,12 +402,16 @@ footer .container{
     }
 
 
+
+
     #nuestros-servicios h2{
         font-size: 4em;
     }
     #nuestros-servicios h3{
         margin-top: 0;
     }
+
+
 
 
     #nuestros-servicios .carta{
@@ -315,9 +424,13 @@ footer .container{
     }
 
 
+
+
     .carta:first-child{
     background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/monicrop.png);
     }
+
+
 
 
     .carta:nth-child(2){
@@ -325,9 +438,13 @@ footer .container{
     }
 
 
+
+
     .carta:last-child{
     background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/automacrop.png) ;
     }
+
+
 
 
     #caracteristicas{
@@ -338,9 +455,13 @@ footer .container{
     }
 
 
+
+
     #caracteristicas .container{
         text-align: initial;
     }
+
+
 
 
     #caracteristicas ul{
@@ -348,9 +469,13 @@ footer .container{
     }
 
 
+
+
     #calla h2{
         font-size: 5em;
     }
+
+
 
 
     #calla button{
@@ -358,10 +483,14 @@ footer .container{
     }
 
 
+
+
     footer .container{
         justify-content: flex-end;
     }
 }
+
+
 
 
 @media (min-width:1200px){
