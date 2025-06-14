@@ -98,3 +98,18 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background: #65a13a;
 }
+
+
+.footer-fixed {
+  position: fixed;
+  right: 12px;
+  bottom: 8px;
+  color: #111;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  font-weight: bold;
+  font-size: 1em;
+  z-index: 100;
+}
