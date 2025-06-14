@@ -24,6 +24,7 @@ li{font-size: 1.25em;}
 body{
     font-family: roboto;
     margin: 0;
+    text-align: justify;
 }
 
 
@@ -154,6 +155,13 @@ header a:hover{
 
 
 
+#somos-ecovolt p {
+    text-align: justify;
+}
+
+
+
+
 #nuestros-servicios{
     background-color: rgb(30, 30, 30);
     color: white;
@@ -217,6 +225,13 @@ header a:hover{
 
 .carta:last-child{
     background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/automatizacion.png) ;
+}
+
+
+
+
+#nuestros-servicios .carta p {
+    text-align: justify;
 }
 
 
@@ -326,6 +341,69 @@ button:hover,
 }
 
 
+
+
+.caracteristicas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+  margin: 40px 0;
+  align-items: stretch;
+}
+
+
+.caracteristica {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px #77C04322;
+  padding: 28px 20px 20px 20px;
+  text-align: center;
+  transition: transform 0.18s, box-shadow 0.18s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 320px;
+}
+
+
+.caracteristica:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 32px #77C04344;
+}
+
+
+.caracteristica-icon {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 18px;
+}
+
+
+.caracteristica h4 {
+  margin: 10px 0 12px 0;
+  color: #77C043;
+  font-size: 1.2em;
+}
+
+
+.caracteristica p {
+  color: #333;
+  font-size: 1em;
+  text-align: justify;
+  margin: 0;
+}
+
+
+/* Responsive */
+@media (max-width: 700px) {
+  .caracteristicas-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .caracteristica {
+    min-height: 0;
+  }
+}
 
 
 @media (min-width: 720px)
@@ -497,4 +575,10 @@ button:hover,
     #caracteristicas{
         background-position-x: calc(100vw - 800px);
     }
+}
+
+
+#caracteristicas {
+  background: linear-gradient(120deg, #e8f8e4 0%, #c6eec4 100%);
+  padding: 60px 0;
 }
